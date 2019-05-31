@@ -1,0 +1,12 @@
+body {
+	margin: 0;
+}
+
+.jumbotron {
+	background: #DE0100;
+	color: white;
+}
+
+div.row {
+	margin-top: 15px;
+}
