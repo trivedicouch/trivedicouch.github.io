@@ -10,3 +10,11 @@ body {
 div.row {
 	margin-top: 15px;
 }
+
+.carousel-caption {
+	top: 50%;
+	bottom: initial;
+	transform: translateY(-50%);
+	vertical-align: middle;
+	font-size: 2em;
+}
