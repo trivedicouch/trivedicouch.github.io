@@ -18,3 +18,9 @@ div.row {
 	vertical-align: middle;
 	font-size: 2em;
 }
+
+.nav-btn, .nav-item {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
