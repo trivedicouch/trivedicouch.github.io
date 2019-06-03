@@ -3,7 +3,6 @@ body {
 }
 
 .jumbotron {
-	background: #DE0100;
 	color: white;
 }
 
@@ -24,3 +23,13 @@ div.row {
 	margin-right: 5px;
 }
 
+#carouselMedia {
+	background: black;
+	width: 100%;
+}
+
+#carouselMedia img {
+	height: 500px !important;
+	width: auto !important;
+	margin: 0 auto;
+}
