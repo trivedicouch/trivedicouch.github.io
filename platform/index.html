@@ -13,6 +13,22 @@
 			display: block;
 			height: 300px;
 		}
+		table.stats {
+			border-collapse: 1px solid black;
+			margin: 0 auto;
+		}
+		table.stats > thead > tr > th {
+			background: #cccccc;
+			font-weight: bold;
+		}
+		table.stats > tbody > tr > th {
+			background: #f7f7f7;
+			font-weight: bold;
+		}
+		table.stats td, table.stats th {
+			border: 1px solid black;
+			padding: 5px;
+		}
 	</style>
 </head>
 <body data-spy="scroll" data-target="#navbar-top" data-offset="0" >
@@ -59,7 +75,7 @@
 
 					<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
 						<div class="card-body">
-							<h3>About the Issue</h3>
+							<h3>1. About the Issue</h3>
 							<h6>Emiline</h6>
 							<ul>
 								<li>International movement of people from foreign countries in to the US</li>
@@ -69,7 +85,7 @@
 								<li>Over half the country’s population has been killed or forced to leave their homes</li>
 							</ul>
 
-							<h3>The Candidate's Position</h3>
+							<h3>2. The Candidate's Position</h3>
 							<h6>Shan</h6>
 							<p>
 								The president believes in a strict immigration policy. Current policies are the deportation of immigrants who have
@@ -89,20 +105,77 @@
 								price for negligence is to high”.
 							</p>
 
-							<h3>Supporting Facts</h3>
+							<h3>3. Supporting Facts</h3>
 							<h6>Neelay</h6>
 							<ul>
-								<li>Coming soon</li>
+								<li>Key Sources: <a href="https://www.pewresearch.org/fact-tank/2019/06/03/key-findings-about-u-s-immigrants/" target="_blank">Pew Research Center</a></li>
+								<li>Up to a quarter of all immigrants in the US (foreign-born nationals) are illegal</li>
+								<li>The term “criminal alien” refers to aliens who have been convicted of one or more crimes, whether in the United States or abroad,
+									prior to interdiction by the U.S. Border Patrol; it does not include convictions for conduct that is not deemed criminal by the
+									United States. Arrests of criminal aliens are a subset of total apprehensions by U.S. Border Patrol.</li>
 							</ul>
+							<table class="stats">
+								<thead>
+									<tr><th></th> <th>FY 16</th> <th>FY 17</th> <th>FY 18</th> <th>FYTD 19</th></tr>
+	
+								</thead>
+								<tbody>
+									<tr>
+										<th>U.S. Border Patrol Criminal Alien Arrests</th>
+										<td>12,842</td> <td>8,531</td> <td>6,698</td> <td>3,289</td>
+									</tr>
+									<tr>
+										<th>Assault, battery, domestic violence</th>
+										<td>1,007</td> <td>692</td> <td>524</td> <td>231</td>
+									</tr>
+									<tr>
+										<th>Burglary, robbery, larceny, theft, fraud</th>
+										<td>825</td> <td>595</td> <td>347</td> <td>126</td>
+									</tr>
+									<tr>
+										<th>Driving under the influence</th>
+										<td>2,458</td> <td>1,596</td> <td>1,113</td> <td>481</td>
+									</tr>
+									<tr>
+										<th>Homicide, manslaughter</th>
+										<td>8</td> <td>3</td> <td>3</td> <td>1</td>
+									</tr>
+									<tr>
+										<th>Illegal drug possession, trafficking</th>
+										<td>1,797</td> <td>1,249</td> <td>871</td> <td>345</td>
+									</tr>
+									<tr>
+										<th>Illegal entry, re-entry</th>
+										<td>7,060</td> <td>4,502</td> <td>3,920</td> <td>2,075</td>
+									</tr>
+									<tr>
+										<th>Illegal weapons possession, transport, trafficking</th>
+										<td>237</td> <td>173</td> <td>106</td> <td>43</td>
+									</tr>
+									<tr>
+										<th>Sexual offenses</th>
+										<td>155</td> <td>137</td> <td>80</td> <td>45</td>
+									</tr>
+									<tr>
+										<th>Other convictions</th>
+										<td>2,544</td> <td>1,851</td> <td>1,364</td> <td>619</td>
+									</tr>
+							</table>
+							<p></p>
 
-							<h3>Quotes and Anecdotes</h3>
+							<h3>4. Quotes and Anecdotes</h3>
 							<h6>Neelay</h6>
 							<ul>
 								<li>Parents whose children have been killed by illegal immigrants</li>
+								<ul>
+									<li><a href="https://medium.com/s/story/12-years-ago-today-my-wife-was-murdered-by-an-undocumented-immigrant-b2ae355a1f99" target="_blank">Medium</a></li>
+									<li><a href="https://www.usatoday.com/story/news/nation/2018/08/22/mollie-tibbitts-murder-reignites-debate-over-immigrant-crime/1060792002/" target="_blank">USA Today</a></li>
+									<li>Mollie Tibbetts murder was committed by an illegal immigrant</li>
+								</ul>
 								<li>Local officials at the border speaking about economic consequences of illegal immigrants</li>
 							</ul>
 
-							<h3>Opposing Position</h3>
+							<h3>5. Opposing Position</h3>
 							<h6>Nick</h6>
 							<ul>
 								<li>Defend and uphold DACA</li>
@@ -113,7 +186,7 @@
 								<li>Fix family backlogs</li>
 							</ul>
 
-							<h3>Opposing Facts</h3>
+							<h3>6. Opposing Facts</h3>
 							<h6>Peter</h6>
 							<ul>
 								<li>
@@ -144,7 +217,7 @@
 								</li>
 							</ul>
 
-							<h3>History of Legislation</h3>
+							<h3>7. History of Legislation</h3>
 							<h6>Peter</h6>
 							<ul>
 								<li class="pro">Immigration and Nationality Act (1952) - set quotas, gave federal gov’t more power to deport</li>
@@ -169,7 +242,7 @@
 					</div>
 					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
 						<div class="card-body">
-							<h3>About the Issue</h3>
+							<h3>1. About the Issue</h3>
 							<h6>Adnan</h6>
 							<ul>
 								<li>“A well regulated Militia, being necessary to the security of a free State, the right of the people to keep and bear arms, shall not be infringed.”</li>
@@ -177,7 +250,7 @@
 								<li>Is there an effective way to reach a centrist position on gun control measures; that is, implement strategies to reduce the quantity of guns used in unsafe situations without interfering with gun use amongst responsible, verified owners?</li>
 							</ul>
 
-							<h3>The Candidate's Position</h3>
+							<h3>2. The Candidate's Position</h3>
 							<h6>Adnan</h6>
 							<p>
 								We take a centrist position on gun control policy. We recognize there are issues concerning safety in schools and other public venues
@@ -194,7 +267,7 @@
 								<li>Technical innovation needed to fix core gun issues</li>
 							</ul>
 
-							<h3>Supporting Facts</h3>
+							<h3>3. Supporting Facts</h3>
 							<h6>Patrick</h6>
 							<ul>
 								<li>Gun control laws do not deter crime; gun ownership deters crime.</li>
@@ -210,7 +283,7 @@
 								</ul>
 							</ul>
 
-							<h3>Quotes and Anecdotes</h3>
+							<h3>4. Quotes and Anecdotes</h3>
 							<h6>Vincent</h6>
 							<ul>
 								<li>Quotes from NRA Executive VP Wayne LaPierre</li>
@@ -227,7 +300,7 @@
 								</ul>
 							</ul>
 
-							<h3>Opposing Positions</h3>
+							<h3>5. Opposing Positions</h3>
 							<h6>Sofia</h6>
 							<ul>
 								<li>“While responsible gun ownership is part of the fabric of many communities, too many families in America have suffered from gun violence...we will expand and strengthen background checks and close dangerous loopholes in our current laws.”</li>
@@ -240,13 +313,19 @@
 								<li>Clinton sees the importance in the Second Amendment, however, also wants to balance it out with more gun restriction laws.</li>
 							</ul>
 
-							<h3>Opposing Facts</h3>
+							<h3>6. Opposing Facts</h3>
 							<h6>Sofia</h6>
 							<ul>
-								<li>Coming soon</li>
+								<li>There were around 16,500 murders in the US in 2016, about 73% of these were with firearms.</li>
+								<li>There are over 393 million guns in circulation within the United States.</li>
+								<li>About one third of homes with children have guns that are both unlocked and loaded.</li>
+								<li>Since 1982 there have been 99 mass shootings, in which semi-automatic, assault weapons, and weapons with high magazine capacity were used.</li>
+								<li>States in which assault weapons are more heavily restricted have lower per capita homicide rates.</li>
+								<li>States that have heavier restrictions on the purchase of firearms (universal background checks and mandatory waiting periods) have lower suicide rates than the states that do not have these same requirements.</li>
+								<li>The majority of accidental firearm death with children is due to their access to the firearms (not being locked away and being loaded).</li>
 							</ul>
 
-							<h3>History of Legislation</h3>
+							<h3>7. History of Legislation</h3>
 							<h6>Sarah</h6>
 							<ul>
 								<li>National Firearms Act of 1934</li>
@@ -287,7 +366,7 @@
 					</div>
 					<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
 						<div class="card-body">
-							<h3>About the Issue</h3>
+							<h3>1. About the Issue</h3>
 							<h6>Amay</h6>
 							<p>
 								Protecting the environment has become more important to the Americans over the years. With the publication of Silent Spring
@@ -324,7 +403,7 @@
 								</ul>
 							</p>
 
-							<h3>The Candidate's Position</h3>
+							<h3>2. The Candidate's Position</h3>
 							<h6>Brianna</h6>
 							<p>
 								Protecting the environment is a necessary goal that this administration strongly believes in accomplishing and supporting.
@@ -360,69 +439,123 @@
 								positive and clean source of energy, as opposed to fuels that emit carbon dioxide, increasing greenhouse gas emissions. 
 							</p>
 
-							<h3>Supporting Facts</h3>
+							<h3>3. Supporting Facts</h3>
 							<h6>Megan</h6>
 							<ul>
-								<li>Cook review of 11,944 peer reviewed studies found that:</li>
-								<ul>
-									<li>66.4% studies had no stated position on anthropogenic global warming</li>
-									
-								</ul>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
+<li>Source: <a href="https://climatechange.procon.org/" target="_blank">ProCon.org</a></li>
+<li>Cook review of 11,944 peer reviewed studies found that:</li>
+<ul>
+	<li>66.4% studies had no stated position on anthropogenic global warming</li>
+	<li>32.6% implied or stated that humans are contributing to climate change BUT:</li>
+	<ul>
+		<li>Only 0.5% explicitly stated “that humans are the primary cause of recent global warming.”</li>
+	</ul>
+</ul>
+<li>2012 Purdue University survey:</li>
+<ul>
+	<li>47% of climatologists do not believe that humans are primarily responsible for climate change</li>
+	<ul>
+		<li>37% equal combination of humans and the environment</li>
+		<li>5% mostly by the environment</li>
+		<li>5% not enough information to say</li>
+	</ul>
+</ul>
+<li>The planet has warmed 1-1.4 degrees Fahrenheit over the 20th century BUT it is within the +/- 5 degrees Fahrenheit of the past 3,000 years.</li>
+<li>2003 study by researchers at the Harvard-Smithsonian Center for Astrophysics found that:</li>
+	<ul>
+		<li>Many records reveal that the 20th century is probably not the warmest nor a uniquely extreme climatic period of the last millennium.</li>
+	</ul>
+<li>2005 study published in <i>Nature</i> found:</li>
+	<ul>
+		<li>“High temperatures- similar to those observed in the 20th century before 1990- occured around AD 1000 to 1100” in the Northern Hemisphere</li>
+	</ul>
+<li>2013 study published in Boreas found:</li>
+	<ul>
+		<li>Summer temperatures during Roman Empire and Medieval periods had consistently higher temperatures than 20th century did</li>
+	</ul>
+<li>2010 <i>Chinese Science Bulletin</i> study, warming during the 20th century resulted from a natural 21 year temperature oscillation. This means that there will be a cooling period in the 2030s. </li>
+<li>Warming has preceded the rise in CO2, it did not follow the rise in CO2</li>
+<li>2003 study published in Science</li>
+<ul>
+	<li>Shows that over last four climatic cycles, natural global warming has preceded global increases in CO2</li>
+</ul>
+<li><i>Proceedings of the National Academy of Sciences</i> published in 2010 that 460-445 million years ago, CO2 levels were five times as high as they are today and during that time there was an intense period of glaciation, not warming </li>
+<li>Ecologist and former Director of Greenpeace International Patrick Moore, PhD said, “there is some correlation, but little evidence, to support a direct causal relationship between CO2 and global temperature through the millennia.”</li>
+<li>2011 study published in Asia-Pacific Journal of Atmospheric Science</li>
+<ul>
+	<li>Many climate models predict additional global warming to be the result of CO@ emissions but many of these models “exaggerate positive feedbacks and even show positive feedbacks when actual feedbacks are negative.”</li>
+</ul>
+<li>50% of CO2 that has come from burning fossil fuels and human activities in general has been absorbed by the earth’s carbon sinks</li>
+<li>2010 study from the <i>Proceedings of the National Academy of Sciences</i></li>
+<ul>
+	<li>Forest growth rates are increasing because of greater CO2 levels which results in lower atmospheric CO2 levels in a negative feedback.</li>
+</ul>
+<li>2012 study in <i>Nature</i></li>
+<ul>
+	<li>Rate of global carbon uptake by earth’s carbon sinks (forests, oceans, etc.) is increasing and even doubled from 1960-2010.</li>
+</ul>
+<li>According to William Happer who has a PhD and is a Professor of Physics at Princeton University</li>
+<ul>
+	<li>“Additional increments of CO2 will cause relatively less direct warming because we already have so much CO2 in the atmosphere that it has blocked most of the infrared radiation that it can. The technical jargon for this is that CO2 absorption band is nearly ‘saturated’ at current CO2 levels.”</li>
+</ul>
+<li>Heartland Institute’s 2013 Nongovernmental International Panel on Climate Change reported that</li>
+<ul>
+	<li>“It is likely rising atmospheric CO2 concentrations will have little impact on future climate.”</li>
+</ul>
+<li>2007 study published in <i>Energy & Environment</i></li>
+<ul>
+	<li>“Variations in solar activity and not the burning of fossil fuels are the direct cause of the observed multi year variations in climatic responses.”</li>
+</ul>
+<li>Willie Soon, PhD, Physicist at the Harvard-Smithsonian Center for Astrophysics did a study in 2012 that found a strong correlation between solar radiation and temperatures in the Arctic over past 130 years.</li>
+<li>2012 study in Journal of <i>Atmospheric and Solar- Terrestrial Physics</i></li>
+<ul>
+	<li>“Up to 70% of the observed post 1850 climate change and warming could be associated to multiple solar cycles.”</li>
+</ul>
+<li>In its 2013 report, the Intergovernmental Panel on Climate Change found that there was a slowdown in global warming over the past 15 years</li>
+<li>Heartland Institute’s 2013 NIPCC report</li>
+<ul>
+	<li>“The earth has not warmed significantly for the past 16 years despite an 8% increase in atmospheric CO2.”</li>
+</ul>
+<li>2014 study in Open Journal of Statistics found that there is slowdown in global warming when looking at surface temperature records and satellite measurements of the lower atmosphere.</li>
+<li>Richard Lindzen, PhD, Emeritus Professor of Meteorology at MIT stated that the IPCC”s “excuse for the absence of warming over the past 17 years is that the heat is hiding in the deep ocean. However, this is simply an admission that the [climate] models fail to simulate the exchanges of heat between the surface layers and the deeper oceans.”</li>
+<li>2014 report by Global Warming Policy Foundation</li>
+<ul>
+	<li>Slow global sea level rise has been going on for 10,000 years </li>
+</ul>
+<li>18,000 years ago, sea levels were 400 feet lower than they are today and they have been slowly increasing every since</li>
+<li>pH of average ocean surface water is 8.1</li>
+<ul>
+	<li>Since beginning of industrial revolution it has only decreased 0.1</li>
+</ul>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
 							</ul>
 
-							<h3>Quotes and Anecdotes</h3>
+							<h3>4. Quotes and Anecdotes</h3>
 							<h6>Elizabeth</h6>
 
-							<h3>Opposing Positions</h3>
+							<h3>5. Opposing Positions</h3>
 							<h6>Gabi</h6>
 
-							<h3>Opposing Facts</h3>
+							<h3>6. Opposing Facts</h3>
 							<h6>Gabi</h6>
 
-							<h3>History of Legislation</h3>
+							<h3>7. History of Legislation</h3>
 							<h6>Megan</h6>
 						</div>
 					</div>
