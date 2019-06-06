@@ -13,6 +13,22 @@
 			display: block;
 			height: 300px;
 		}
+		table.stats {
+			border-collapse: 1px solid black;
+			margin: 0 auto;
+		}
+		table.stats > thead > tr > th {
+			background: #cccccc;
+			font-weight: bold;
+		}
+		table.stats > tbody > tr > th {
+			background: #f7f7f7;
+			font-weight: bold;
+		}
+		table.stats td, table.stats th {
+			border: 1px solid black;
+			padding: 5px;
+		}
 	</style>
 </head>
 <body data-spy="scroll" data-target="#navbar-top" data-offset="0" >
@@ -59,7 +75,7 @@
 
 					<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
 						<div class="card-body">
-							<h3>About the Issue</h3>
+							<h3>1. About the Issue</h3>
 							<h6>Emiline</h6>
 							<ul>
 								<li>International movement of people from foreign countries in to the US</li>
@@ -69,7 +85,7 @@
 								<li>Over half the country’s population has been killed or forced to leave their homes</li>
 							</ul>
 
-							<h3>The Candidate's Position</h3>
+							<h3>2. The Candidate's Position</h3>
 							<h6>Shan</h6>
 							<p>
 								The president believes in a strict immigration policy. Current policies are the deportation of immigrants who have
@@ -89,38 +105,99 @@
 								price for negligence is to high”.
 							</p>
 
-							<h3>Supporting Facts</h3>
+							<h3>3. Supporting Facts</h3>
 							<h6>Neelay</h6>
 							<ul>
-								<li>Nothing</li>
+								<li>Key Sources: <a href="https://www.pewresearch.org/fact-tank/2019/06/03/key-findings-about-u-s-immigrants/" target="_blank">Pew Research Center</a></li>
+								<li>Up to a quarter of all immigrants in the US (foreign-born nationals) are illegal</li>
+								<li>The term “criminal alien” refers to aliens who have been convicted of one or more crimes, whether in the United States or abroad,
+									prior to interdiction by the U.S. Border Patrol; it does not include convictions for conduct that is not deemed criminal by the
+									United States. Arrests of criminal aliens are a subset of total apprehensions by U.S. Border Patrol.</li>
 							</ul>
+							<table class="stats">
+								<thead>
+									<tr><th></th> <th>FY 16</th> <th>FY 17</th> <th>FY 18</th> <th>FYTD 19</th></tr>
+	
+								</thead>
+								<tbody>
+									<tr>
+										<th>U.S. Border Patrol Criminal Alien Arrests</th>
+										<td>12,842</td> <td>8,531</td> <td>6,698</td> <td>3,289</td>
+									</tr>
+									<tr>
+										<th>Assault, battery, domestic violence</th>
+										<td>1,007</td> <td>692</td> <td>524</td> <td>231</td>
+									</tr>
+									<tr>
+										<th>Burglary, robbery, larceny, theft, fraud</th>
+										<td>825</td> <td>595</td> <td>347</td> <td>126</td>
+									</tr>
+									<tr>
+										<th>Driving under the influence</th>
+										<td>2,458</td> <td>1,596</td> <td>1,113</td> <td>481</td>
+									</tr>
+									<tr>
+										<th>Homicide, manslaughter</th>
+										<td>8</td> <td>3</td> <td>3</td> <td>1</td>
+									</tr>
+									<tr>
+										<th>Illegal drug possession, trafficking</th>
+										<td>1,797</td> <td>1,249</td> <td>871</td> <td>345</td>
+									</tr>
+									<tr>
+										<th>Illegal entry, re-entry</th>
+										<td>7,060</td> <td>4,502</td> <td>3,920</td> <td>2,075</td>
+									</tr>
+									<tr>
+										<th>Illegal weapons possession, transport, trafficking</th>
+										<td>237</td> <td>173</td> <td>106</td> <td>43</td>
+									</tr>
+									<tr>
+										<th>Sexual offenses</th>
+										<td>155</td> <td>137</td> <td>80</td> <td>45</td>
+									</tr>
+									<tr>
+										<th>Other convictions</th>
+										<td>2,544</td> <td>1,851</td> <td>1,364</td> <td>619</td>
+									</tr>
+							</table>
+							<p></p>
 
-							<h3>Anecdotes</h3>
+							<h3>4. Quotes and Anecdotes</h3>
 							<h6>Neelay</h6>
 							<ul>
 								<li>Parents whose children have been killed by illegal immigrants</li>
+								<ul>
+									<li><a href="https://medium.com/s/story/12-years-ago-today-my-wife-was-murdered-by-an-undocumented-immigrant-b2ae355a1f99" target="_blank">Medium</a></li>
+									<li><a href="https://www.usatoday.com/story/news/nation/2018/08/22/mollie-tibbitts-murder-reignites-debate-over-immigrant-crime/1060792002/" target="_blank">USA Today</a></li>
+									<li>Mollie Tibbetts murder was committed by an illegal immigrant</li>
+								</ul>
 								<li>Local officials at the border speaking about economic consequences of illegal immigrants</li>
 							</ul>
 
-							<h3>Opposing Position</h3>
+							<h3>5. Opposing Position</h3>
 							<h6>Nick</h6>
 							<ul>
 								<li>Defend and uphold DACA</li>
-								<li>Humane and ethical immigration enforcement, including ending deportation of hardworking immigrants and instead deporting those who pose an immediate harm to the safety of the community</li>
+								<li>Humane and ethical immigration enforcement, including ending deportation of hardworking immigrants and instead deporting
+									those who pose an immediate harm to the safety of the community</li>
 								<li>Support legal immigration, within reasonable limits</li>
 								<li>Repeal the 3 year, 10 year, and permanent bars, which force families apart</li>
 								<li>Fix family backlogs</li>
 							</ul>
 
-							<h3>Opposing Facts</h3>
+							<h3>6. Opposing Facts</h3>
 							<h6>Peter</h6>
 							<ul>
 								<li>
 									The portion of immigrants in the country is a return to its 20th century numbers, so this is not some bad new change.
-									<img src="../img/figure-1.png" class="chart" alt="Figure 1" />
+									<a href="https://www.brookings.edu/research/a-dozen-facts-about-immigration/" target="_blank">
+										<img src="../img/figure-1.png" class="chart" alt="Figure 1" />
+									</a>
 								</li>
 								<li>
-									Immigrants are almost twice as likely to have a doctorate as native born citizens (though also 4 times more likely to have less than a high school education
+									Immigrants are almost twice as likely to have a doctorate as native born citizens (though also 4 times more likely to
+									have less than a high school education
 									<img src="../img/figure-2.png" class="chart" alt="Figure 2" />
 									<img src="../img/figure-3.png" class="chart" alt="Figure 3" />
 								</li>
@@ -139,6 +216,19 @@
 									(<a href="https://www.cnn.com/2017/01/29/us/refugee-terrorism-trnd/index.html" target="_blank">CNN</a>)
 								</li>
 							</ul>
+
+							<h3>7. History of Legislation</h3>
+							<h6>Peter</h6>
+							<ul>
+								<li class="pro">Immigration and Nationality Act (1952) - set quotas, gave federal gov’t more power to deport</li>
+								<li class="pro">Operation Wetback (1954) - gov’t deported millions from California, Arizona, and Texas</li>
+								<li class="con">INA Amendments (1965) - repealed nationality quota, instead placed on hemisphere (more allowed from Western hemisphere obviously)</li>
+								<li class="con">Immigration Reform and Control Act (1986) - increased amnesty</li>
+								<li class="con">Immigration Act (1990) - increased legal immigration and tripled visas</li>
+								<li class="pro">REAL ID Act (2005) - increased immigration enforcement and restrictions on asylum</li>
+								<li class="con">DREAM Act (2010) - granted legal status to undocumented immigrants who go to school</li>
+								<li class="con">DACA (2012) - executive action that protected undocumented immigrants from deportation</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -152,23 +242,117 @@
 					</div>
 					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
 						<div class="card-body">
-							<h3>About the Issue</h3>
-							<ul></ul>
+							<h3>1. About the Issue</h3>
+							<h6>Adnan</h6>
+							<ul>
+								<li>“A well regulated Militia, being necessary to the security of a free State, the right of the people to keep and bear arms, shall not be infringed.”</li>
+								<li>The issue being argued is about how to interpret the second amendment: how can we balance the need for safety while being careful to not infringe upon individual liberties?</li>
+								<li>Is there an effective way to reach a centrist position on gun control measures; that is, implement strategies to reduce the quantity of guns used in unsafe situations without interfering with gun use amongst responsible, verified owners?</li>
+							</ul>
 
-							<h3>The Candidate's Position</h3>
-							<ul></ul>
+							<h3>2. The Candidate's Position</h3>
+							<h6>Adnan</h6>
+							<p>
+								We take a centrist position on gun control policy. We recognize there are issues concerning safety in schools and other public venues
+								but maintain that the right to bear arms is a fundamental right and can be integrated into a safe American society. The following are
+								the central tenets of our stance: 
+							</p>
+							<ul>
+								<li>The right to obtain and store ammunition only with registration</li>
+								<li>Regulate access to hunting grounds and shooting ranges to individuals of a certain age (21) and registration requirement.</li>
+								<li>Implement federal licensing of guns to prevent illegal/irresponsible gun ownership and facilitate the process of confiscating guns when registration/ID requirements have not been met.</li>
+								<li>Implement features such as child safety feature locks and gun safety tests.</li>
+								<li>Federal funding for prosecution in gun crime lawsuits.</li>
+								<li>We will recognize the right of the NRA to fund and support candidates for office.</li>
+								<li>Technical innovation needed to fix core gun issues</li>
+							</ul>
 
-							<h3>Supporting Facts</h3>
-							<ul></ul>
+							<h3>3. Supporting Facts</h3>
+							<h6>Patrick</h6>
+							<ul>
+								<li>Gun control laws do not deter crime; gun ownership deters crime.</li>
+								<ul>
+									<li>A study in Applied Economics Letters found that "assault weapons bans did not significantly affect murder rates at the state level" and "states with restrictions on the carrying of concealed weapons had higher gun-related murders."</li>
+									<li>While gun ownership doubled in the twentieth century, the murder rate decreased.</li>
+									<li>John R. Lott, Jr., PhD, author of More Guns, Less Crime: Understanding Crime and Gun Control Laws, stated, "States with the largest increases in gun ownership also have the largest drops in violent crimes... The effect on 'shall-issue' [concealed gun] laws on these crimes [where two or more people were killed] has been dramatic. When states passed these laws, the number of multiple-victim shootings declined by 84 percent. Deaths from these shootings plummeted on average by 90 percent and injuries by 82 percent."</li>
+								</ul>
+								<li>Gun control laws will not prevent criminals from obtaining guns or breaking laws.</li>
+								<ul>
+									<li>Of 62 mass shootings in the United States between 1982 and 2012, 49 of the shooters used legally obtained guns. Collectively, 143 guns were possessed by the killers with about 75% obtained legally.</li>
+									<li>John R. Lott, Jr., PhD, gun rights activist, stated, "The problem with such [gun control] laws is that they take away guns from law-abiding citizens, while would-be criminals ignore them."</li>
+								</ul>
+							</ul>
 
-							<h3>Anecdotes</h3>
-							<ul></ul>
+							<h3>4. Quotes and Anecdotes</h3>
+							<h6>Vincent</h6>
+							<ul>
+								<li>Quotes from NRA Executive VP Wayne LaPierre</li>
+								<ul>
+									<li>“Politicians pass laws for gun-free school zones. They issue press releases bragging about them. They post signs advertising, and in doing so, they tell every insane killer in America that schools are the safest place to inflict maximum mayhem with minimum risk.”</li>
+									<li>“The only thing that stops a bad guy with a gun is a good guy with a gun.”</li>
+									<li>“With all the foreign aid the US does… can’t we afford to put a police officer in every single school.”</li>
+								</ul>
+								<li>Quotes from President Donald Trump</li>
+								<ul>
+									<li>“Gun and magazine bans are a total failure.”</li>
+									<li>“What we need to do is fix the system we have and make it work as intended. What we don’t need to do is expand a broken system.”</li>
+									<li>“Maybe we could make it much more comprehensive and have one bill instead of 15 different bills that nobody knows what’s happening.”</li>
+								</ul>
+							</ul>
 
-							<h3>Opposing Positions</h3>
-							<ul></ul>
+							<h3>5. Opposing Positions</h3>
+							<h6>Sofia</h6>
+							<ul>
+								<li>“While responsible gun ownership is part of the fabric of many communities, too many families in America have suffered from gun violence...we will expand and strengthen background checks and close dangerous loopholes in our current laws.”</li>
+								<li>The second amendment does not grant anyone the right to keep and bear arms, it allows for the state to regulate a militia. It is the federal government’s job to protect the people, not the people protecting themselves with arms.</li>
+								<li>"My biggest frustration so far is the fact that this society has not been willing to take some basic steps to keep guns out of the hands of people who can do just unbelievable damage. We're the only developed country on Earth where this happens. ... And it happens once a week. And it's a one-day story. ... The country has to do some soul-searching on this." -Obama</li>
+								<li>Obama finds that the country needs to take a more aggressive approach on gun control given that gun violence has become a regular thing.</li>
+								<li>“I’m not here to take away your guns,” Clinton said during her speech at the DNC. “I just don’t want you to be shot by someone who shouldn’t have a gun in the first place.”</li>
+								<li>Clinton believes that not all guns should be restricted, however, there must be an increase in gun registration laws.</li>
+								<li>“We’ve got to do something. It’s a very difficult political issue. But we are smart enough, compassionate enough to balance legitimate Second Amendment rights concerns with preventive measures and control measures, so whatever motivated this murderer … we will not see more needless, senseless deaths.” -Clinton</li>
+								<li>Clinton sees the importance in the Second Amendment, however, also wants to balance it out with more gun restriction laws.</li>
+							</ul>
 
-							<h3>Opposing Facts</h3>
-							<ul></ul>
+							<h3>6. Opposing Facts</h3>
+							<h6>Sofia</h6>
+							<ul>
+								<li>There were around 16,500 murders in the US in 2016, about 73% of these were with firearms.</li>
+								<li>There are over 393 million guns in circulation within the United States.</li>
+								<li>About one third of homes with children have guns that are both unlocked and loaded.</li>
+								<li>Since 1982 there have been 99 mass shootings, in which semi-automatic, assault weapons, and weapons with high magazine capacity were used.</li>
+								<li>States in which assault weapons are more heavily restricted have lower per capita homicide rates.</li>
+								<li>States that have heavier restrictions on the purchase of firearms (universal background checks and mandatory waiting periods) have lower suicide rates than the states that do not have these same requirements.</li>
+								<li>The majority of accidental firearm death with children is due to their access to the firearms (not being locked away and being loaded).</li>
+							</ul>
+
+							<h3>7. History of Legislation</h3>
+							<h6>Sarah</h6>
+							<ul>
+								<li>National Firearms Act of 1934</li>
+								<ul>
+									<li>Taxes the manufacture and transfer of, and mandates the registration of Title II weapons such as machine guns, short-barreled rifles and shotguns, heavy weapons, explosive ordnance, suppressors, and disguised or improvised firearms.</li>
+								</ul>
+								<li>Gun Control Act of 1968</li>
+								<ul>
+									<li>Regulates the firearms industry and firearms owners. It primarily focuses on regulating interstate commerce in firearms by generally prohibiting interstate firearms transfers except among licensed manufacturers, dealers and importers.</li>
+								</ul>
+								<li>Omnibus Crime Control and Safe Streets Act of 1968</li>
+								<ul>
+									<li>Prohibited interstate trade in handguns, increased the minimum age to 21 for buying handguns.</li>
+								</ul>
+								<li>Firearm Owners Protection Act 1986</li>
+								<ul>
+									<li>Revised and partially repealed the Gun Control Act of 1968. Prohibited the sale to civilians of automatic firearms manufactured after the date of the law's passage. Required ATF approval of transfers of automatic firearms.</li>
+								</ul>
+								<li>Undetectable Firearms Act of 1988</li>
+								<ul>
+									<li>Effectively criminalizes, with a few exceptions, the manufacture, importation, sale, shipment, delivery, possession, transfer, or receipt of firearms with less than 3.7 oz of metal content.</li>
+								</ul>
+								<li>Gun-Free School Zones Act 1990</li>
+								<ul>
+									<li>Prohibits unauthorized individuals from knowingly possessing a firearm at a place that the individual knows, or has reasonable cause to believe, is a school zone.</li>
+								</ul>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -182,7 +366,349 @@
 					</div>
 					<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
 						<div class="card-body">
-							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							<h3>1. About the Issue</h3>
+							<h6>Amay</h6>
+							<p>
+								Protecting the environment has become more important to the Americans over the years. With the publication of Silent Spring
+								by Rachel Carson, the public became aware of the impact of the pesticide DDT. As a result, this compound was banned, and
+								eventually the Environmental Protection Agency was created by President Nixon. Since then, the issues around environmental
+								protection and regulation have morphed from dealing with pure science into ones which need to balance the competing needs of
+								keeping people healthy while allowing economic development and prosperity. The key issues facing people today include: (i)
+								Global Warming/Climate Change, (ii) Reduction in harmful pollutants in the air and water, (iii) Managing wildlife to ensure
+								biodiversity. Climate change refers to the impact of rising levels of greenhouse gases (gases that cause the temperature of
+								the atmosphere is rise) in the atmosphere. With increased concentrations of these gases, the overall temperature in the
+								atmosphere increases, and is causing changes in weather patterns and temperatures. While most people think of these changes
+								as causing increased temperatures, they actually are causing increased extreme events, including colder temperatures in some
+								locations and higher temperature in others. Keeping clean air and water for people and animals is another goal of environmental
+								regulation and politics. However, it is not just as simple as stopping pollution. Economic development of a nation causes
+								industries to release waste materials from factories. How much of each substance and how it can be released is the subject of
+								environmental regulation. Sometimes, the regulations cause industries to close down, or force them to switch raw materials. For
+								example, restrictions introduced by President Obama under the clean air act, are forcing Power Plants to consider switching
+								from coal to natural gas. Finally, managing wildlife is another environmental issue. While humans are the largest species on
+								Earth, there are millions of other species that call this plant home. However, many of them live in areas that humans want to
+								develop for their own economic needs. How to balance the needs of the competing interests of human economic development and
+								protection of these species is the role of environmental policy. For example, reintroducing wolves into Yellowstone has
+								enabled the ecosystem to become rebalanced. However at the same time, wolves have been known to attack and kill cattle being
+								raised by ranchers in the area. How to protect important wild species while also protecting the economic rights of people in
+								the area is a difficult balancing act that politicians need to deal with.
+							</p>
+							<p>
+								Read more:
+								<ul>
+									<li><a href="http://www.inquiriesjournal.com/articles/943/environmental-problems-and-american-politics-why-is-protecting-the-environment-so-difficult" target="_blank">Inquiries Journal</a></li>
+									<li><a href="https://environmentamerica.org/issues" target="_blank">Environment America</a></li>
+									<li><a href="https://www.nationalgeographic.com/environment/global-warming/global-warming-causes/" target="_blank">National Geographic</a></li>
+									<li><a href="https://www.yellowstonepark.com/things-to-do/wolf-reintroduction-changes-ecosystem" target="_blank">Yellowstone Park</a></li>
+									<li><a href="https://www.nationalgeographic.com/animals/2019/03/gray-wolves-endangered-species-united-states/" target="_blank">National Geographic</a></li>
+								</ul>
+							</p>
+
+							<h3>2. The Candidate's Position</h3>
+							<h6>Brianna</h6>
+							<p>
+								Protecting the environment is a necessary goal that this administration strongly believes in accomplishing and supporting.
+								Full government regulation is the most apparent option to change the worsening state of the environment, through business
+								friendly regulations that still support free trade options. This in turn, will ensure that businesses are not hurt by
+								regulations and efforts to lower the global temperature through the limiting of climate-altering pollution. The Paris
+								Climate Agreement, while essential to combat climate change through the lowering of greenhouse gas emissions, ultimately
+								does not fully embody the vision of this administration. This is why we support the renegotiation of the agreement, to
+								include a carbon tax system, a cost-effective way to decrease greenhouse gas emissions. The implementation of a carbon tax
+								system will serve to increase support for renewable energy sources, such as solar panels or wind turbines, that do not emit
+								carbon dioxide. Giving block grants to the states for environmental funding will allow for them to allocate the funds as
+								they desire, to support issues more pressing in concern to them individually. 
+							</p>
+							<p>
+								“As the pioneer of environmentalism a century ago, the Republican Party reaffirms the moral obligation to be good stewards
+								of the God-given natural beauty and resources of our country.”
+								-Republican 2016 Platform
+							</p>
+							<p>
+								This emphasizes the beliefs of this administration in regards to protecting the natural environment through the implementation
+								of a carbon tax system and state funding. The Republican Party ultimately aims to preserve the environment, and does not deny
+								climate change is an increasing issue of international concern. 
+							</p>
+							<p>
+								“We firmly believe environmental problems are best solved by giving incentives for human ingenuity and the development of
+								new technologies, not through top-down, command-and-control regulations that stifle economic growth and cost thousands of jobs.”
+								-Republican 2016 Platform
+							</p>
+							<p>
+								This illustrates how the Republican Party fully supports giving block grants to the states to use their discretion to decide
+								which environmental matters most urgently need support and funding. Categorical grants are not the solution, and only serve
+								to force the states into coercion to replicate the federal government’s agenda. New technology, such as wind turbines are a
+								positive and clean source of energy, as opposed to fuels that emit carbon dioxide, increasing greenhouse gas emissions. 
+							</p>
+
+							<h3>3. Supporting Facts</h3>
+							<h6>Megan</h6>
+							<ul>
+								<li>Source: <a href="https://climatechange.procon.org/" target="_blank">ProCon.org</a></li>
+								<li>Cook review of 11,944 peer reviewed studies found that:</li>
+								<ul>
+									<li>66.4% studies had no stated position on anthropogenic global warming</li>
+									<li>32.6% implied or stated that humans are contributing to climate change BUT:</li>
+									<ul>
+										<li>Only 0.5% explicitly stated “that humans are the primary cause of recent global warming.”</li>
+									</ul>
+								</ul>
+								<li>2012 Purdue University survey:</li>
+								<ul>
+									<li>47% of climatologists do not believe that humans are primarily responsible for climate change</li>
+									<ul>
+										<li>37% equal combination of humans and the environment</li>
+										<li>5% mostly by the environment</li>
+										<li>5% not enough information to say</li>
+									</ul>
+								</ul>
+								<li>The planet has warmed 1-1.4 degrees Fahrenheit over the 20th century BUT it is within the +/- 5 degrees Fahrenheit of the past 3,000 years.</li>
+								<li>2003 study by researchers at the Harvard-Smithsonian Center for Astrophysics found that:</li>
+									<ul>
+										<li>Many records reveal that the 20th century is probably not the warmest nor a uniquely extreme climatic period of the last millennium.</li>
+									</ul>
+								<li>2005 study published in <i>Nature</i> found:</li>
+									<ul>
+										<li>“High temperatures- similar to those observed in the 20th century before 1990- occured around AD 1000 to 1100” in the Northern Hemisphere</li>
+									</ul>
+								<li>2013 study published in Boreas found:</li>
+									<ul>
+										<li>Summer temperatures during Roman Empire and Medieval periods had consistently higher temperatures than 20th century did</li>
+									</ul>
+								<li>2010 <i>Chinese Science Bulletin</i> study, warming during the 20th century resulted from a natural 21 year temperature oscillation. This means that there will be a cooling period in the 2030s. </li>
+								<li>Warming has preceded the rise in CO2, it did not follow the rise in CO2</li>
+								<li>2003 study published in Science</li>
+								<ul>
+									<li>Shows that over last four climatic cycles, natural global warming has preceded global increases in CO2</li>
+								</ul>
+								<li><i>Proceedings of the National Academy of Sciences</i> published in 2010 that 460-445 million years ago, CO2 levels were five times as high as they are today and during that time there was an intense period of glaciation, not warming </li>
+								<li>Ecologist and former Director of Greenpeace International Patrick Moore, PhD said, “there is some correlation, but little evidence, to support a direct causal relationship between CO2 and global temperature through the millennia.”</li>
+								<li>2011 study published in Asia-Pacific Journal of Atmospheric Science</li>
+								<ul>
+									<li>Many climate models predict additional global warming to be the result of CO@ emissions but many of these models “exaggerate positive feedbacks and even show positive feedbacks when actual feedbacks are negative.”</li>
+								</ul>
+								<li>50% of CO2 that has come from burning fossil fuels and human activities in general has been absorbed by the earth’s carbon sinks</li>
+								<li>2010 study from the <i>Proceedings of the National Academy of Sciences</i></li>
+								<ul>
+									<li>Forest growth rates are increasing because of greater CO2 levels which results in lower atmospheric CO2 levels in a negative feedback.</li>
+								</ul>
+								<li>2012 study in <i>Nature</i></li>
+								<ul>
+									<li>Rate of global carbon uptake by earth’s carbon sinks (forests, oceans, etc.) is increasing and even doubled from 1960-2010.</li>
+								</ul>
+								<li>According to William Happer who has a PhD and is a Professor of Physics at Princeton University</li>
+								<ul>
+									<li>“Additional increments of CO2 will cause relatively less direct warming because we already have so much CO2 in the atmosphere that it has blocked most of the infrared radiation that it can. The technical jargon for this is that CO2 absorption band is nearly ‘saturated’ at current CO2 levels.”</li>
+								</ul>
+								<li>Heartland Institute’s 2013 Nongovernmental International Panel on Climate Change reported that</li>
+								<ul>
+									<li>“It is likely rising atmospheric CO2 concentrations will have little impact on future climate.”</li>
+								</ul>
+								<li>2007 study published in <i>Energy & Environment</i></li>
+								<ul>
+									<li>“Variations in solar activity and not the burning of fossil fuels are the direct cause of the observed multi year variations in climatic responses.”</li>
+								</ul>
+								<li>Willie Soon, PhD, Physicist at the Harvard-Smithsonian Center for Astrophysics did a study in 2012 that found a strong correlation between solar radiation and temperatures in the Arctic over past 130 years.</li>
+								<li>2012 study in Journal of <i>Atmospheric and Solar- Terrestrial Physics</i></li>
+								<ul>
+									<li>“Up to 70% of the observed post 1850 climate change and warming could be associated to multiple solar cycles.”</li>
+								</ul>
+								<li>In its 2013 report, the Intergovernmental Panel on Climate Change found that there was a slowdown in global warming over the past 15 years</li>
+								<li>Heartland Institute’s 2013 NIPCC report</li>
+								<ul>
+									<li>“The earth has not warmed significantly for the past 16 years despite an 8% increase in atmospheric CO2.”</li>
+								</ul>
+								<li>2014 study in Open Journal of Statistics found that there is slowdown in global warming when looking at surface temperature records and satellite measurements of the lower atmosphere.</li>
+								<li>Richard Lindzen, PhD, Emeritus Professor of Meteorology at MIT stated that the IPCC”s “excuse for the absence of warming over the past 17 years is that the heat is hiding in the deep ocean. However, this is simply an admission that the [climate] models fail to simulate the exchanges of heat between the surface layers and the deeper oceans.”</li>
+								<li>2014 report by Global Warming Policy Foundation</li>
+								<ul>
+									<li>Slow global sea level rise has been going on for 10,000 years </li>
+								</ul>
+								<li>18,000 years ago, sea levels were 400 feet lower than they are today and they have been slowly increasing every since</li>
+								<li>pH of average ocean surface water is 8.1</li>
+								<ul>
+									<li>Since beginning of industrial revolution it has only decreased 0.1</li>
+								</ul>
+								<li>2010 study by Science which looked at ocean acidity levels over past 15 million years</li>
+								<ul>
+									<li>“Samples record surface water seawater pH values that are within the range observed in the oceans today.”</li>
+								</ul>
+								<li>“Increased atmospheric CO2 absorbed by the oceans results in higher rates of photosynthesis and faster growth of ocean plants and phytoplankton, which increases pH levels keeping the water alkaline, not acidic.”</li>
+								<li>2010 → Science and Public Policy Institute</li>
+								<ul>
+									<li>“Our harmless emissions of trifling qualities of carbon dioxide cannot possible acidify the oceans.”</li>
+								</ul>
+								<li>Because climate models cannot simulate major know features that were a part of important periods such as the ice ages or very warm climates during the Cretaceous, Miocene, and Eocene periods</li>
+								<ul>
+									<li>Thus cannot be trusted to predict future climate changes since it cannot simulate the past</li>
+								</ul>
+								<li>2011 <i>Asia-Pacific Journal of Atmospheric Science</i></li>
+								<ul>
+									<li>“The models are exaggerating climate sensitivity”</li>
+									<li>Overestimating how fast earth will warm as CO2 levels increase</li>
+								</ul>
+								<li>Two additional studies found IPCC projections of future global warming to be too high</li>
+								<li>2014 article by climatologist and former NASA scientist Roy Spencer, PhD, stated that 95% of climate models have “over-forecast the warming trend since 1979.”</li>
+								<li>IPCC had to rescind a prediction they made in that Himalayan glaciers would likely melt away by 2035. </li>
+								<li>2014 study of 2,181 Himalayan glaciers (2000=2011) found that 86.6% of the glaciers were not receding</li>
+								<li>2013 study of ice cores in <i>Nature Geoscience</i></li>
+								<ul>
+									<li>“Current melting of glaciers in Western Antarctica is due to atmospheric circulation changes that have caused rapid warming over the West Antarctic Ice Sheet and cannot be directly attributed to human caused climate change.”</li>
+								</ul>
+								<li>Christian Schluchter who is a Professor of Geology at the University of Bern, retreat of glaciers in the Alps began in the mid-1800s which was before large amounts of CO2 from human activities entered the atmosphere.</li>
+								<li>The melting of the Greenland ice sheet, Arctic sea ice, and Arctic permafrost is due to changes in ocean currents, according to</li>
+								<ul>
+									<li>2009 study in <i>Geophysical Research Letters</i></li>
+									<li>William Gray, PhD, Emeritus Professor of Atmospheric Science at Colorado State University</li>
+								</ul>
+								<li>“Global cooling from 1940 to the 1970s and warming from the 1970s to 2008, coincided with fluctuations in ocean currents and cloud cover driven by the Pacific Decadal Oscillation (PDO)- a naturally occurring rearragenement in atmospheric and oceanic circulation patterns.”</li>
+								<li>2014 article by Don Easterbrook, PhD, Professor Emeritus of Geology at Western Washington University</li>
+								<ul>
+									<li>“PDO cool mode has replaced the warm mode in the Pacific Ocean, virtually assuring us of about 30 years of global cooling, perhaps much deeper than the global cooling from about 1945 to 1977.”</li>
+								</ul>
+								<li>2013 report from Tropical Meteorology Project at Colorado State University</li>
+								<ul>
+									<li>Increase in CO2 from humans over past century has had “little or no significant effect” on global tropical cyclone activity</li>
+									<li>Specific hurricanes not directly caused by human-caused global warming (Ex: Sandy, IVan, Katrina, Rita, Wilma, and Ike)</li>
+								</ul>
+								<li>According to the NOAA, increased hurricane activity between 1995 and 2015 not the result of human-induced climate change but rather of cyclical tropical cyclone patterns, which is driven by natural ocean currents.</li>
+								<li>“Many types of recorded extreme weather events over the past half-century have actually become less frequent and less severe.”</li>
+							</ul>
+
+							<h3>4. Quotes and Anecdotes</h3>
+							<h6>Elizabeth</h6>
+							<ul>
+								<li>Carlos Curbelo - House Representative for Florida from 2015 to 2019. The Bipartisan Index voted him the fourth most bipartisan member of the House. He created the Climate Solutions Caucus along with Ted Deutch. In July 2018, he became the first Republican to propose legislation for a carbon tax. He had the second highest rating by the League of Conservation Voters in 2016.</li>
+								<li>Brian Fitzpatrick - House Representative for Pennsylvania from 2017 to 2019. He is a member of the Climate Solutions Caucus. He co-introduced the Energy Innovation and Carbon Dividend Act in 2018. He voted for the environment 71 percent of the time in his first year in office.</li>
+								<li>Francis Rooney - House Representative for Florida from 2017 to 2019. He is a member of the Climate Solutions Caucus. He also co-introduced the Energy Innovation and Carbon Dividend Act in 2018, as well as supported the 2019 reintroduction of the bill.</li>
+							</ul>
+
+							<h3>5. Opposing Positions</h3>
+							<h6>Gabi</h6>
+							<ul>
+								<li>Source: <a href="https://democrats.org/issues/environment/" target="_blank">Democratic Party</a></li>
+								<li>“Democrats believe that climate change poses a real and urgent threat to our economy, our national security, and our children’s health and futures, and that Americans deserve the jobs and security that come from becoming the clean energy superpower of the 21st century.” -Democratic Party Platform 2016</li>
+								<li>Climate change is a threat across many aspects of American life</li>
+								<li>Hillary Clinton pledged to power at least half of the nation's energy needs with renewable sources by 2030 and supported investment in clean renewable energy over fracking. She supported the Paris Agreement to combat climate change and opposed the Keystone XL pipeline and drilling in the Arctic</li>
+								<li>Democratic candidate Clinton proposed using renewable energy sources over time so by 2030 there would be half of the energy as renewable</li>
+								<li>“Climate change is an urgent threat and a defining challenge of our time. Fifteen of the 16 hottest years on record have occurred this century. While Donald Trump has called climate change a “hoax,” 2016 is on track to break global temperature records once more. Cities from Miami to Baltimore are already threatened by rising seas. California and the West have suffered years of brutal drought. Alaska has been scorched by wildfire. New York has been battered by superstorms, and Texas swamped by flash floods. The best science tells us that without ambitious, immediate action across our economy to cut carbon pollution and other greenhouse gases, all of these impacts will be far worse in the future. We cannot leave our children a planet that has been profoundly damaged.” - Dem Party Platform 2016</li>
+								<li>“Democrats share a deep commitment to tackling the climate challenge; creating millions of good-paying middle class jobs; reducing greenhouse gas emissions more than 80 percent below 2005 levels by 2050; and meeting the pledge President Obama put forward in the landmark Paris Agreement, which aims to keep global temperature increases to “well below” two degrees Celsius and to pursue efforts to limit global temperature increases to 1.5 degrees Celsius. We believe America must be running entirely on clean energy by mid-century. We will take bold steps to slash carbon pollution and protect clean air at home, lead the fight against climate change around the world, ensure no Americans are left out or left behind as we accelerate the transition to a clean energy economy, and be responsible stewards of our natural resources and our public lands and waters. Democrats reject the notion that we have to choose between protecting our planet and creating good-paying jobs. We can and we will do both.” - Dem Party Platform 2016</li>
+								<li>“We are committed to getting 50 percent of our electricity from clean energy sources within a decade, with half a billion solar panels installed within four years and enough renewable energy to power every home in the country. We will cut energy waste in American homes, schools, hospitals, and offices through energy efficient improvements; modernize our electric grid; and make American manufacturing the cleanest and most efficient in the world. These efforts will create millions of new jobs and save families and businesses money on their monthly energy bills. We will transform American transportation by reducing oil consumption through cleaner fuels, vehicle electrification increasing the fuel efficiency of cars, boilers, ships, and trucks. We will make new investments in public transportation and build bicycle and pedestrian infrastructure across our urban and suburban areas. Democrats believe the tax code must reflect our commitment to a clean energy future by eliminating special tax breaks and subsidies for fossil fuel companies as well as defending and extending tax incentives for energy efficiency and clean energy.” - Dem Party Platform 2016</li>
+								<li>“Democrats believe clean air and clean water are basic rights of all Americans. Yet as we saw in Flint, Michigan, low-income communities and communities of color are disproportionately home to environmental justice “hot spots,” where air pollution, water pollution, and toxic hazards like lead increase health and economic hardship. The impacts of climate change will also disproportionately affect low-income and minority communities, tribal nations, and Alaska Native villages—all of which suffer the worst losses during extreme weather and have the fewest resources to prepare. Simply put, this is environmental racism.” - Dem Party Platform 2016</li>
+							</ul>
+
+							<h3>6. Opposing Facts</h3>
+							<h6>Gabi</h6>
+							<ul>
+								<li><b>Evidence of climate change - <a href="https://climate.nasa.gov/evidence/" target="_blank">NASA</a></b></li>
+								<li>Global Temperature Rise</li>
+								<ul>
+									<li>The planet's average surface temperature has risen about 1.62 degrees Fahrenheit (0.9 degrees Celsius) since the late 19th century, a change driven largely by increased carbon dioxide and other human-made emissions into the atmosphere.</li>
+								</ul>
+								<li>Warming Oceans</li>
+								<ul>
+									<li>The oceans have absorbed much of this increased heat, with the top 700 meters (about 2,300 feet) of ocean showing warming of more than 0.4 degrees Fahrenheit since 1969.</li>
+								</ul>
+								<li>Shrinking Ice Sheets</li>
+								<ul>
+									<li>The Greenland and Antarctic ice sheets have decreased in mass. Data from NASA's Gravity Recovery and Climate Experiment show Greenland lost an average of 286 billion tons of ice per year between 1993 and 2016, while Antarctica lost about 127 billion tons of ice per year during the same time period. The rate of Antarctica ice mass loss has tripled in the last decade.</li>
+								</ul>
+								<li>Glacial Retreat</li>
+								<ul>
+									<li>Glaciers are retreating almost everywhere around the world — including in the Alps, Himalayas, Andes, Rockies, Alaska and Africa.</li>
+								</ul>
+								<li>Decreased Snow Cover</li>
+								<ul>
+									<li>Satellite observations reveal that the amount of spring snow cover in the Northern Hemisphere has decreased over the past five decades and that the snow is melting earlier.</li>
+								</ul>
+								<li>Sea Level Rise</li>
+								<ul>
+									<li>Global sea level rose about 8 inches in the last century. The rate in the last two decades, however, is nearly double that of the last century and is accelerating slightly every year.</li>
+								</ul>
+								<li>Declining Arctic Sea Ice</li>
+								<ul>
+									<li>Both the extent and thickness of Arctic sea ice has declined rapidly over the last several decades.</li>
+								</ul>
+								<li>Extreme Events</li>
+								<ul>
+									<li>The number of record high temperature events in the United States has been increasing, while the number of record low temperature events has been decreasing, since 1950. The U.S. has also witnessed increasing numbers of intense rainfall events.</li>
+								</ul>
+								<li>Ocean Acidification</li>
+								<ul>
+									<li>Since the beginning of the Industrial Revolution, the acidity of surface ocean waters has increased by about 30 percent.This increase is the result of humans emitting more carbon dioxide into the atmosphere and hence more being absorbed into the oceans. The amount of carbon dioxide absorbed by the upper layer of the oceans is increasing by about 2 billion tons per year.</li>
+								</ul>
+							</ul>
+
+							<h3>7. History of Legislation</h3>
+							<h6>Megan</h6>
+							<ul>
+								<li><a href="https://www.epa.gov/laws-regulations/laws-and-executive-orders" target="_blank">EPA list</a></li>
+								<li>Clean Air Act</li>
+								<ul>
+									<li>Regulates air emissions</li>
+									<li>Authorizes EPA to establish National Ambient Air Quality Standards</li>
+									<li>Goal to achieve NAAQS in every state by 1975 to address public health and welfare risks</li>
+									<li>States had to develop State Implementation Plans (SIPs)</li>
+								</ul>
+								<li>Clean Water Act</li>
+								<ul>
+									<li>Regulates discharges of pollutants into U.S Water</li>
+									<li>Regulates quality standards for surface waters</li>
+									<li>EPA created pollution control programs such as regarding wastewater standards </li>
+								</ul>
+								<li>Toxic Substances Control Act</li>
+								<ul>
+									<li>Gives EPA authority to require reporting, record-keeping and testing requirements. It also gives EPA discretion to set restrictions concerning chemical substances</li>
+								</ul>
+								<li>Beaches Environmental Assessment and Coastal Health (BEACH) Act</li>
+								<ul>
+									<li>Amended Clean Water Act</li>
+									<li>Purpose of the Act is to reduce risk of disease for those using coastal waters in the United States</li>
+									<li>EPA can give grants for microbiological testing and the monitoring of coastal waters</li>
+									<li>Supports programs to notify the public of any potential for exposure to diseases in applicable coastal waters</li>
+								</ul>
+								<li>Endangered Species Act</li>
+								<ul>
+									<li>Requires federal agencies to make sure that any actions they are taking are not going to harm or jeopardize the worldwide list of of endangered species maintained by the U.S Fish and Wildlife Service</li>
+									<li>Prohibits the importation, exportation, or any commerce of the species that are on the list as well</li>
+								</ul>
+								<li>Energy Independence and Security Act</li>
+								<ul>
+									<li>Greater energy and independence for U.S</li>
+									<li>Increase production of clean renewable fuels</li>
+									<li>Protect consumers</li>
+									<li>Increase efficiency of products, buildings and vehicles</li>
+									<li>Promote research on and plans around greenhouse gas capture and storage</li>
+									<li>Push the Federal Government towards better energy performance</li>
+								</ul>
+								<li>Nuclear Waste Policy Act</li>
+								<ul>
+									<li>Procedures to evaluate sites that can be used for geologic repositories</li>
+									<li>Supports using deep geologic repositories for safe storage of radioactive waste</li>
+								</ul>
+								<li>Safe Drinking Water Act</li>
+								<ul>
+									<li>Protect quality of drinking water</li>
+									<li>Allows EPA to establish minimum standards to protect tap water</li>
+									<li>Those who operate public water systems must comply with such standards set by the EPA</li>
+								</ul>
+								<li>Pollution Prevention Act</li>
+								<ul>
+									<li>Reducing pollution through cost-effective changes in production, operation, and raw materials</li>
+									<ul>
+										<li>Equipment for technology modifications</li>
+										<li>Process modifications</li>
+										<li>Redesign of products</li>
+										<li>Substituting raw materials</li>
+										<li>Improving housekeeping, maintenance, training, and inventory control</li>
+									</ul>
+									<li>Increasing efficiency in energy and water use</li>
+								</ul>
+								<li>Shore Protection Act</li>
+								<ul>
+									<li>Prohibits the transportation of commercial waste within coastal waters without a permit</li>
+									<li>EPA responsible for creating regulations concerning loading, securing, offloading, and cleaning up wastes from waste sources, vessels, and reception facilities</li>
+									<li>Goal → minimize deposit of waste in coastal waters and ensure that any waste that is deposited is reported and cleaned up.</li>
+								</ul>
+							</ul>
 						</div>
 					</div>
 				</div>
